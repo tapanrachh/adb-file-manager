@@ -113,7 +113,7 @@ class App(QMainWindow):
         global window
         window = QWidget()
         self.listWidget = QListWidget()
-        window.setWindowTitle("Remove System Apps")
+        window.setWindowTitle("Apps")
     
         for e in self.sList:
 
@@ -235,7 +235,7 @@ class App(QMainWindow):
         button3.clicked.connect(lambda : self.goto("/sdcard/download/"))
         button4 = QtWidgets.QPushButton("DCIM")
         button4.clicked.connect(lambda : self.goto("/sdcard/DCIM/"))
-        button5 = QtWidgets.QPushButton("Remove System Apps")
+        button5 = QtWidgets.QPushButton("Apps")
         button5.clicked.connect(self.onRemove)
         aboutButton = QtWidgets.QPushButton("About")
         aboutButton.clicked.connect(self.onAbout)

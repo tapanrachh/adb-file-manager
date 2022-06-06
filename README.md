@@ -14,6 +14,16 @@ Make sure you [enabled adb debugging][enable-adb] on your device(s).
 
 [enable-adb]: https://developer.android.com/studio/command-line/adb.html#Enabling
 
+
+## Screenshots
+
+![image](screenshots/1.png)
+![image](screenshots/2.png)
+![image](screenshots/3.png)
+
+
+
+
 ## Run Locally
 
 Install requirements

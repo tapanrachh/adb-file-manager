@@ -11,3 +11,4 @@ zipp==3.7.0
 watchdog
 mouse
 darkdetect
+pywin32
